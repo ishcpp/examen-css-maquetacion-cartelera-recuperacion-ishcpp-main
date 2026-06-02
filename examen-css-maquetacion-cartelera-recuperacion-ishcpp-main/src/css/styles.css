@@ -1,9 +1,15 @@
 /* RESET BÁSICO */
 * {
-    margin: ;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 /* ESTILOS GENERALES */
 body {
+    background-color: blue;
+    color:burlywood;
+    padding: 1.5rem;
+    
 }
 /* CABECERA */
 .cabecera {
