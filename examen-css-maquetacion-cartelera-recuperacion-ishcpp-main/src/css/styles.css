@@ -34,6 +34,8 @@ body {
 
 }
 .lista-navegacion a {
+    list-style: none;
+    display: flex;
 }
 /* efecto al pasar el ratón por los enlaces */
 {
