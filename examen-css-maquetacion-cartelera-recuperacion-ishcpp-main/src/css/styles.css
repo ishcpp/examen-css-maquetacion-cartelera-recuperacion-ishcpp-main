@@ -9,31 +9,46 @@ body {
     background-color: blue;
     color:burlywood;
     padding: 1.5rem;
-    
+
 }
 /* CABECERA */
 .cabecera {
 }
 .logo {
+    font-size: 40px;
 }
 /* NAVEGACIÓN */
 .lista-navegacion {
+    list-style: none;
+    color: cadetblue;
+    
+
 }
 .lista-navegacion a {
 }
 /* efecto al pasar el ratón por los enlaces */
 {
+    
 }
 /* PORTADA / HERO */
 .portada {
+    background-color: blueviolet;
+    text-align: center;
+    padding: 1.8rem ;
+
 }
 .portada-titulo {
+     font-size: 60px;
 }
 /* CARTELERA (contenedor de las películas) */
 .cartelera {
+    padding: 1.5rem ;
 }
 /* TARJETAS DE PELÍCULA */
 .pelicula {
+    background-color: white;
+    padding: 1.5rem 0.8rem;
+    bo
 }
 .titulo-pelicula {
 }
