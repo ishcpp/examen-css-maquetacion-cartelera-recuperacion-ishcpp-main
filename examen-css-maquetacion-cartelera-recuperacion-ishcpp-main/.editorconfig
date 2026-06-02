@@ -1,0 +1,45 @@
+# .editorconfig
+# Archivo de configuración para unificar estilo en el repositorio.
+# Lo utilizan editores como VS Code, JetBrains, Vim, etc.
+#
+# Objetivo principal:
+# - Que el código tenga el mismo formato sin importar quién lo edite ni en qué sistema operativo.
+# - Evitar problemas comunes: mezcla de tabuladores/espacios, CRLF vs LF, espacios sobrantes, etc.
+
+root = true
+
+# ==== REGLAS GENERALES (se aplican a todos los ficheros) ====
+[*]
+end_of_line = lf                 # Fin de línea tipo Unix (recomendado en Git)
+insert_final_newline = true      # Añadir salto de línea al final del archivo
+charset = utf-8                  # Codificación estándar
+trim_trailing_whitespace = true  # Quitar espacios al final de cada línea
+indent_style = space             # Usar espacios, no tabs
+indent_size = 4                  # 4 espacios por defecto (lenguajes de programación)
+
+# ==== FORMATOS QUE USAN 2 ESPACIOS POR CONVENCIÓN ====
+# HTML, CSS, JS, JSON, YAML, Markdown, XML...
+[*.{json,yml,yaml,md,html,css,scss,js,ts,xml}]
+indent_size = 2
+
+# ==== LENGUAJES CON ESTÁNDAR PROPIO ====
+# Python: PEP 8 → 4 espacios
+[*.py]
+indent_size = 4
+
+# SQL: recomendado 4 espacios por legibilidad
+[*.sql]
+indent_size = 4
+
+# Scripts de shell: se mantiene el estándar de 4 espacios
+[*.{sh,bash}]
+indent_size = 4
+
+# ==== EXCEPCIONES TÉCNICAS (obligatorias) ====
+# Makefile: requiere tabuladores, si no, no funciona
+[Makefile]
+indent_style = tab
+
+# Go: usa tabs porque lo impone gofmt
+[*.go]
+indent_style = tab

@@ -1,0 +1,45 @@
+/* RESET BÁSICO */
+* {
+    margin: ;
+}
+/* ESTILOS GENERALES */
+body {
+}
+/* CABECERA */
+.cabecera {
+}
+.logo {
+}
+/* NAVEGACIÓN */
+.lista-navegacion {
+}
+.lista-navegacion a {
+}
+/* efecto al pasar el ratón por los enlaces */
+{
+}
+/* PORTADA / HERO */
+.portada {
+}
+.portada-titulo {
+}
+/* CARTELERA (contenedor de las películas) */
+.cartelera {
+}
+/* TARJETAS DE PELÍCULA */
+.pelicula {
+}
+.titulo-pelicula {
+}
+/* párrafos dentro de las tarjetas */
+{
+}
+/* DISTINTIVO DE ESTRENO (posicionado sobre la tarjeta) */
+.destacado {
+}
+/* ETIQUETA DE GÉNERO */
+.genero {
+}
+/* PIE DE PÁGINA */
+.pie-pagina {
+}

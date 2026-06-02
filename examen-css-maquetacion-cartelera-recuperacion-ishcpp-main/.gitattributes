@@ -1,0 +1,44 @@
+# .gitattributes
+# ------------------------------
+# Este archivo indica a Git cómo tratar los archivos en cuanto a finales de línea (EOL),
+# codificación y qué archivos son binarios.
+# ¿Por qué usarlo?
+# - Evita conflictos entre Windows (CRLF) y Linux/Mac (LF).
+# - Asegura que todos los commits en el repositorio usen el mismo formato de EOL.
+# - Protege archivos binarios para que Git no intente normalizarlos.
+#
+# Contenido breve:
+# - `* text=auto` → normaliza texto en general.
+# - Forzamos LF en scripts, configuraciones y código fuente.
+# - Permitimos CRLF solo en archivos de Windows (.bat, .ps1).
+# - Definimos binarios para que no se toquen.
+
+# Normalizar texto por defecto
+* text=auto
+
+# Forzar LF en código y configuraciones
+*.sh    text eol=lf
+*.py    text eol=lf
+*.md    text eol=lf
+*.yml   text eol=lf
+*.yaml  text eol=lf
+*.json  text eol=lf
+*.js    text eol=lf
+*.ts    text eol=lf
+*.css   text eol=lf
+*.html  text eol=lf
+
+# Forzar CRLF en scripts específicos de Windows
+*.bat   text eol=crlf
+*.ps1   text eol=crlf
+
+# Archivos binarios (no tocar nunca)
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.ico   binary
+*.zip   binary
+*.exe   binary
+*.dll   binary
+*.pdf   binary

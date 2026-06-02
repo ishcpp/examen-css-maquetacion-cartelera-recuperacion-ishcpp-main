@@ -1,0 +1,33 @@
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Archivos temporales
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Compilados y binarios
+bin/
+build/
+*.class
+*.jar
+
+# Archivos de respaldo y editor
+*~
+*.bak
+
+# Archivos de dependencias locales
+node_modules/
+venv/
+
+# Archivos específicos de proyectos antiguos
+*.exe
+*.dll
+
+*.docx
