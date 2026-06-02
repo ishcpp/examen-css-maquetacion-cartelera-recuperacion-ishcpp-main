@@ -6,22 +6,13 @@
 }
 /* ESTILOS GENERALES */
 body {
-    font-family: sans-serif;
-    background-color: aquamarine;
-    color:black;
+    background-color: blue;
+    color:burlywood;
     padding: 1.5rem;
 
 }
 /* CABECERA */
 .cabecera {
-    flex-direction: row-reverse;
-    background-color: blue;
-    padding: 1.5rem;
-    display: flex;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .logo {
     font-size: 40px;
@@ -60,11 +51,6 @@ body {
      border: 2px solid black;
      border-radius: 5px;
      box-shadow: inset;
-     padding: 1.2rem;
-     width: 500px;
-     margin: auto;
-     border: 3px solid black;
-
 
     }
 .titulo-pelicula {
@@ -77,19 +63,7 @@ body {
 }
 /* ETIQUETA DE GÉNERO */
 .genero {
-      font-size: 16px;
-      background-color: darkseagreen;
-      display: inline-block;
-      padding: 1.5rem;
-      border: 2px solid black;
-      border-radius: 5px;
-
 }
 /* PIE DE PÁGINA */
 .pie-pagina {
-     text-align: center;
-    background-color: olive; 
-    color:beige;
-    padding: 1.5rem;
-    white-space: nowrap;
 }
